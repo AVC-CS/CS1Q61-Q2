@@ -5,14 +5,14 @@
 
 ## Open the "q2.cpp"
 
-> Complete the following functions to do the following works:
+Complete the following functions to do the following works:
 
-The program generates three random numbers and then find the min number among these values. We need to develop three functions as follows:
+The program will take three user numbers and then finds the min number among these values. We need to develop three functions as follows:
 
-1. get three random numbers
+1. get three user numbers
 
-void gerRandnum(int &n1, int &n2, int &n3);  
-// In this function, generate three random numbers and assign the values to the parameter n1, n2, and n3
+void getInput(int &n1, int &n2, int &n3);  
+// In this function, ask the user three values and assign them to the parameter n1, n2, and n3
 
 2. find the minimum number and return to the main function.
 
@@ -27,6 +27,13 @@ void printResult(int n1, int n2, int n3, int min);
 4. Make the main function to drive all these functions.
 
 // In main( ), call the functions  
-getRandnum(n1, n2, n3);  
+getInput(n1, n2, n3);  
 min = findMin(n1, n2, n3);  
 printResult(n1, n2, n3, min);
+
+- Program Source File:  Upload to the Github Classroom.
+  - It will not be tested unless the filename is q2.cpp
+- Make sure that you pass all test units after commit/push.
+  - Click the "XX Commits" in your Git Classroom Repository. Find the ✔️ mark in the Git history.
+  - When you see the icon ❌ on the Git browser, fix your errors in your VS Code and then commit/push again.
+  - There must be multiple times commit/push to pass all test units.
